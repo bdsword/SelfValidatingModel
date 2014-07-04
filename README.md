@@ -10,7 +10,7 @@ Just download the php files, and put them under your app/models/, or somewhere y
 
 Example
 --------------
-     ```php
+```php
     <?php
     class Member extends SelfValidatingModel
     {
@@ -23,4 +23,4 @@ Example
             'type' => 'required|in:0,1,2',
         );
     }
-    ```
+```
